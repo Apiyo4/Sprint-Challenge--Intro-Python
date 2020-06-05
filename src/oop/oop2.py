@@ -24,14 +24,16 @@ class Motorcycle(GroundVehicle):
     def drive(self):
         return "BRAAAP!!"
 
-# vehicles = [
-#     GroundVehicle(),
-#     GroundVehicle(),
-#     Motorcycle(),
-#     GroundVehicle(),
-#     Motorcycle(),
-# ]
+vehicles = [
+    GroundVehicle(),
+    GroundVehicle(),
+    Motorcycle(),
+    GroundVehicle(),
+    Motorcycle(),
+]
 
 # Go through the vehicles list and print the result of calling drive() on each.
 
 # TODO
+for vehicle in vehicles:
+    print(vehicle.drive())
